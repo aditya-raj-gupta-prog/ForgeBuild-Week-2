@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepolia Ledger Bank</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Sepolia Ledger</h1>
+        
+        <div id="connection-status">Not Connected</div>
+        <button id="connectBtn">Connect Wallet</button>
+
+        <hr>
+
+        <h3>Make a Deposit</h3>
+        <input type="number" id="depositAmount" placeholder="Amount in ETH" step="0.001">
+        <button id="depositBtn">Deposit ETH</button>
+
+        <hr>
+
+        <h3>Your Account</h3>
+        <button id="checkBalanceBtn">Show My Total Deposits</button>
+        <div class="balance-display">
+            <span id="userBalance">0.0</span> ETH
+        </div>
+    </div>
+
+    <script type="module" src="./script2.js"></script>
+</body>
+</html>
